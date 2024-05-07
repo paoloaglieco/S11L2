@@ -1,0 +1,16 @@
+--------------------------------------------------------------------------------------------
+Target Malware_U3_W3_L2
+Etichetta DllMain: 1000D02E
+--------------------------------------------------------------------------------------------
+Etichetta funzione GethostByName : 100163CC
+
+La funzione gethostbyname restituisce un puntatore a una struttura hostent ,
+ ovvero una struttura allocata da Windows Sockets. 
+La struttura hostent contiene i risultati di una ricerca corretta dell'host specificato n
+el parametro name .
+
+Se l'host specificato nel parametro name ha indirizzi IPv4 e IPv6, 
+verranno restituiti solo gli indirizzi IPv4. 
+La funzione gethostbyname può restituire solo indirizzi IPv4 per il parametro name 
+
+SUBROUTINE_VAR IN ALLEGGATO SCREEN
